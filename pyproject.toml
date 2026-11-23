@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ips-learning"
+version = "0.1.0"
+description = "Simultaneous inference of environmental and interaction forces in collective dynamics"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+
+authors = [
+    {name = "Nipuni de Silva"}
+]
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "scikit-learn",
+    "joblib",
+    "pandas",
+    "jinja2"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

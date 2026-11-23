@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software in research, please cite the software and the associated research article."
+title: "ips-learning"
+type: software
+version: 0.1.0
+
+authors:
+  - family-names: "de Silva"
+    given-names: "Nipuni"
+
+license: MIT
+
+keywords:
+  - collective dynamics
+  - interacting particle systems
+  - system identification
+  - inverse problems
+  - machine learning
+  - nonparametric learning
+  - interaction kernels
+  - environmental forces
+  - model selection
+
+preferred-citation:
+  type: article
+  title: "Simultaneous inference of environmental and interaction forces in collective dynamics"
+  authors:
+    - family-names: "de Silva"
+      given-names: "Nipuni"
+    - family-names: "Zhong"
+      given-names: "Ming"
+    - family-names: "Greene"
+      given-names: "James M."
+  year: 2026
+  identifiers:
+    - type: doi
+      value: "10.48550/arXiv.2608.25181"
+    - type: url
+      value: "https://arxiv.org/abs/2608.25181"

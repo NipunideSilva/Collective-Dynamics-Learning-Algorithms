@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Model Selection Results</title>
+
+  <link rel="stylesheet" href="css/model_selection_style.css" />
+
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [["\\(", "\\)"], ["$", "$"]]
+      },
+      svg: {
+        fontCache: "global"
+      }
+    };
+  </script>
+
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+  </script>
+</head>
+
+<body>
+  <header class="site-header">
+    <h1>Model Selection for Interacting Particle Systems</h1>
+    <p>
+      Static viewer for precomputed model-selection results.
+      Choose a system to inspect the selected model, summary metrics, and figures.
+    </p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Choose system</h2>
+
+      <label for="system-select">System</label>
+      <select id="system-select">
+        <option value="">Loading systems...</option>
+      </select>
+
+      <button id="load-button">Load Results</button>
+
+      <p id="status-message" class="status-message"></p>
+    </section>
+
+    <section class="card" id="selected-model-section">
+      <h2>Selected Model</h2>
+      <div id="selected-model-card">
+        <p>No system loaded yet.</p>
+      </div>
+    </section>
+
+    <section class="card" id="summary-section">
+      <h2>Model-Selection Summary</h2>
+      <div id="summary-table-container">
+        <p>No summary loaded yet.</p>
+      </div>
+    </section>
+
+    <section class="card" id="repeated-trials-section">
+      <h2>Repeated-Trial Summary</h2>
+      <div id="repeated-trials-container">
+        <p>No repeated-trial summary loaded yet.</p>
+      </div>
+    </section>
+
+    <section class="card" id="figures-section">
+      <h2>Figures</h2>
+      <div id="figure-gallery" class="figure-gallery">
+        <p>No figures loaded yet.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Generated from saved model-selection artifacts.</p>
+  </footer>
+
+  <script src="js/model_selection_app.js"></script>
+</body>
+</html>
