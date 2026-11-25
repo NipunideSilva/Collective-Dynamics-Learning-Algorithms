@@ -374,6 +374,11 @@ For the software project across all versions, use the Zenodo concept DOI:
 
 Machine-readable citation metadata are provided in [`CITATION.cff`](CITATION.cff).
 
+## Acknowledgments
+
+OpenAI's ChatGPT was used to assist with code review, repository cleanup,
+documentation, and software-release preparation. The authors retain
+responsibility for all scientific content and software.
 
 ## License
 
