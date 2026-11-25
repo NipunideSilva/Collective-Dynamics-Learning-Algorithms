@@ -1,8 +1,9 @@
 cff-version: 1.2.0
-message: "If you use this software in research, please cite the software and the associated research article."
+message: "If you use this software, please cite it using the metadata below."
 title: "ips-learning"
 type: software
 version: 0.1.0
+doi: 10.5281/zenodo.24538490
 
 authors:
   - family-names: "de Silva"
