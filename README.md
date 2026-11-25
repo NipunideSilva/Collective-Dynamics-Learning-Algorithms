@@ -202,7 +202,7 @@ basis_config = BasisConfig(
 basis_bundle = BasisBuilder(basis_config).build(features, None)
 
 solver = LinearSystemSolver(
-    method="ridge",
+    method="lstsq",
     ridge_lambda=1e-8,
     svd_tol=1e-12,
 )
@@ -362,11 +362,18 @@ The manuscript develops variational learning methods for collective systems cont
 
 ### Software DOI
 
-The software release is archived on Zenodo:
+Version `v0.1.0` is archived on Zenodo:
+
+[https://doi.org/10.5281/zenodo.24538490](https://doi.org/10.5281/zenodo.24538490)
+
+For the software project across all versions, use the Zenodo concept DOI:
 
 [https://doi.org/10.5281/zenodo.24538489](https://doi.org/10.5281/zenodo.24538489)
 
-For more details see machine-readable citation metadata are provided in [`CITATION.cff`](CITATION.cff).
+[![DOI](https://zenodo.org/badge/1469077747.svg)](https://doi.org/10.5281/zenodo.24538489)
+
+Machine-readable citation metadata are provided in [`CITATION.cff`](CITATION.cff).
+
 
 ## License
 
