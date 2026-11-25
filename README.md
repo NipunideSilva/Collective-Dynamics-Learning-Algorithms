@@ -356,13 +356,17 @@ This repository accompanies the research article:
 
 > Nipuni de Silva, Ming Zhong, and James M. Greene,
 > **“Simultaneous inference of environmental and interaction forces in collective dynamics.”**
-> arXiv:2608.25181, 2026.
+> [arXiv:2608.25181, 2026](https://doi.org/10.48550/arXiv.2608.25181).
 
 The manuscript develops variational learning methods for collective systems containing both interaction forces and environmental or intra-agent forces. The framework includes fully nonparametric and semi-parametric learning formulations, evaluation of mechanistic recovery and trajectory prediction, and a model-selection procedure for distinguishing candidate collective-dynamics mechanisms.
 
-If you use this software in research, please cite the associated article. Machine-readable citation metadata are provided in [`CITATION.cff`](CITATION.cff).
+### Software DOI
 
-No software archive DOI is currently listed. If a DOI is assigned through a repository archive such as Zenodo, it can be added to `CITATION.cff` and this section without changing the package dependencies.
+The software release is archived on Zenodo:
+
+[https://doi.org/10.5281/zenodo.24538489](https://doi.org/10.5281/zenodo.24538489)
+
+For more details see machine-readable citation metadata are provided in [`CITATION.cff`](CITATION.cff).
 
 ## License
 
